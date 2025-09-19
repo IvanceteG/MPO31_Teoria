@@ -1,1 +1,0 @@
-# MPO31_Teoria
