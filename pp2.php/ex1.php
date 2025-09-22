@@ -4,16 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PP2 - Nombres parells entre 50 i 500</title>
-</head>
-<body>
-    <h1>Nombres parells entre 50 i 500</h1>
-    <div class="contenedor_nombres">
-        <?php
-        for ($i= 50; $i <= 500; $i += 2) {
-            echo "<div class='num-box'>$i</div>";
-        }
-        ?>
-    </div>
     <style>
         body {
             background: #f0f0f0;
@@ -34,5 +24,15 @@
             font-size: 16px;
         }
     </style>
+</head>
+<body>
+    <h1>Nombres parells entre 50 i 500</h1>
+    <div class="contenedor_nombres">
+        <?php
+        for ($i= 50; $i <= 500; $i += 2) {
+            echo "<div class='num-box'>$i</div>";
+        }
+        ?>
+    </div>
 </body>
 </html>
