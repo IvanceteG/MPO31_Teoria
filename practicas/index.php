@@ -42,6 +42,7 @@
 
 
                     $classe = ($punts < 5) ? 'rojo' : 'verde';
+                }
     </style>
 </body>
 </html>
