@@ -139,7 +139,7 @@ var_dump($peliculas);
 
 foreach($peliculas as $pelicula){
     echo "<h1>{$pelicula['Nom de la pel·lícula']}</h1>";
-    echo "<p>Imatge: {$pelicula['Imatge']}</p>";
+    echo "<img>Imatge: {$pelicula['Imatge']}</img>";
     echo "<p>Horaris de projecció: {$pelicula['Horaris de projecció']}</p>";
     echo "<p>Durada: {$pelicula['Durada']}</p>";
 }
